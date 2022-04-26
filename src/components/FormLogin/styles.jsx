@@ -24,6 +24,17 @@ export const FormLoginStyled = styled.form`
         color: #F8F9FA;
         padding: 10px 86px;
     }
+    @media (min-width: 920px){
+        width: 369px;
+        height: 502px;
+        h3{
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
 `
 
 

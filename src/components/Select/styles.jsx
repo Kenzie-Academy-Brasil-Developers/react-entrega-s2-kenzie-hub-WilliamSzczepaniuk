@@ -14,4 +14,14 @@ export const Container = styled.div`
         font-size: 9.74px;
         color:#F8F9FA;
     }
+    @media (min-width:920px){
+        display: flex;
+        flex-direction: column;
+        width: 329.36px;
+        select{
+        
+            width: 100%;
+            height: 48px;
+    }    
+}
 `

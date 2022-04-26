@@ -1,10 +1,13 @@
 import { Container } from './styles'
-const Input = ({ children, placeholder})=>{
+const Input = ({ children, placeholder, register, name, error})=>{
 
     return(
         <Container>
-            <label>{children}</label>
-            <input placeholder={placeholder}/>
+            <div>
+                <label>{children}</label>
+                {!!error && <span> - {error}</span>}
+            </div>       
+            <input {...register(name)} placeholder={placeholder}/>
         </Container>
 
     )

@@ -2,13 +2,13 @@ import { LoginPageStyled } from "./styles"
 import FormLogin from "../../components/FormLogin"
 import Logo from "../../components/Logo"
 
-const LoginPage = () =>{
+const LoginPage = ({ authenticated, setAuthenticated }) =>{
 
     return(
         <LoginPageStyled>
             <div>
                 <Logo/>
-                <FormLogin/>
+                <FormLogin authenticated={ authenticated } setAuthenticated={setAuthenticated} />
             </div>
         </LoginPageStyled>
     )

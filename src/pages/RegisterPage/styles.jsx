@@ -25,6 +25,7 @@ export const Container = styled.div`
         
     }
     a{  
+        font-family: 'Inter';
         padding: 7.5px 21px;
         text-decoration: none;
         color: #F8F9FA;

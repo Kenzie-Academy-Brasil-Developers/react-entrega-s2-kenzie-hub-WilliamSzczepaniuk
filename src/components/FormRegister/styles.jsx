@@ -25,4 +25,21 @@ export const FormRegisterStyled = styled.form`
     input{
         border-style: none;
     }
+    select{
+        border-style: none;
+    }
+    @media (min-width:920px){
+        width: 370px;
+        height: 711px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+    img{
+        width: 122px;
+    }
+
 `

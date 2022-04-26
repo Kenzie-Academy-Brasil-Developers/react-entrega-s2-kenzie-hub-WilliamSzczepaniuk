@@ -10,4 +10,10 @@ export const ButtonStyled = styled.button`
     font-weight: 500;
     font-family: 'Inter';
     border-radius: 4px;
+    @media (min-width:920px){
+        width: 324px;
+        height: 48px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 `

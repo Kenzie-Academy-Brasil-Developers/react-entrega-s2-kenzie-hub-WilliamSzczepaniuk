@@ -20,6 +20,23 @@ export const Container = styled.div`
         height: 34.5px;
         width: 256.66px;
     }
+    div{
+        display: flex;
+    }
+    span{
+        color: red;
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    @media (min-width:920px){
+        input{
+            height: 48px;
+            width: 329.93px;
+        }
+        label{
+            font-size: 12.18px;
+        }
+    }
 
     
 `

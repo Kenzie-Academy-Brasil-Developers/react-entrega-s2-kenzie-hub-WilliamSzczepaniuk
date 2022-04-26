@@ -1,10 +1,10 @@
 import { ButtonStyled } from "./styles"
 
 
-const Button = ({children, background, ...rest}) =>{
+const Button = ({children, background, onClick, ...rest}) =>{
 
     return(
-        <ButtonStyled background={ background } type='button' {...rest}>
+        <ButtonStyled onClick={onclick} background={ background } type='button' {...rest}>
             {children}
         </ButtonStyled>
 
