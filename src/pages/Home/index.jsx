@@ -29,11 +29,8 @@ const HomePage = ({ authenticated, setAuthenticated }) =>{
     })
     const exit =()=>{
         history.push('/')
-     //   <Redirect to={'/'}/>
-     setAuthenticated(false)
+        setAuthenticated(false)
         localStorage.clear()
-      
-       
     }
 
     const { 

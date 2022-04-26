@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 const Select = ({ option1, option2, option3, option4, label, register }) =>{
-    const value = option1
+
     return (
         <Container>
             <label>{label}</label>

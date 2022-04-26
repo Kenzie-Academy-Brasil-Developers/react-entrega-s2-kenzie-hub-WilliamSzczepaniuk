@@ -30,5 +30,17 @@ export const Container = styled.div`
         text-decoration: none;
         color: #F8F9FA;
     }
-
+    @media (min-width: 920px){
+        img{
+        width: 122px;
+        height: 16.92px;
+        }
+        .button-voltar{
+            height: 32px;
+            width: 67.49px;
+        }
+        a{
+            padding: 5px 15px;
+        }
+    }
 `

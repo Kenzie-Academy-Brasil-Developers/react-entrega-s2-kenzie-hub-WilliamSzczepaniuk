@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -60,5 +60,36 @@ export const Container = styled.div`
         margin-left: 10px;
         font-size: 11.23px;
         font-weight: 700;
+    }
+    @media (min-width: 920px){
+        input{
+            width: 323.93px;
+            height: 44px;
+        }
+        h3{
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .container_modal{
+            right: 38%;
+            width: 369.50px;
+            height: 342px;
+        }
+        .container_register_tech{
+            height: 50px;
+        }
+        form{
+            height: 85%;
+        }
+        p{
+            font-size: 12.18px;
+        }
+        select{
+            width:329.93px;
+            height: 48px;
+        }
+        .button_X{
+            font-size: 16px;
+        }
     }
 `

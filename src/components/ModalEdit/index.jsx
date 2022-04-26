@@ -1,4 +1,5 @@
-import { Container, ContainerDiv } from "./styles";
+import { Container } from "./styles";
+import { ContainerDiv } from "./styles";
 import Input from "../Input";
 import api from "../../services/Api";
 

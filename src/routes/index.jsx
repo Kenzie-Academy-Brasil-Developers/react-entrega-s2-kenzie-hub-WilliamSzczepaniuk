@@ -13,7 +13,7 @@ const Routes = () =>{
         const token = JSON.parse(localStorage.getItem('@KenzieHub:token'))
 
         if(token){
-             setAuthenticated(true)
+            setAuthenticated(true)
         }
 
     },[authenticated])

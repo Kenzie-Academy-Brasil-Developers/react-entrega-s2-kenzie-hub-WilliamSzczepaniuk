@@ -22,6 +22,9 @@ export const Container = styled.div`
         
             width: 100%;
             height: 48px;
-    }    
-}
+        }
+        label{
+            font-size: 12.18px;
+        }    
+    }
 `

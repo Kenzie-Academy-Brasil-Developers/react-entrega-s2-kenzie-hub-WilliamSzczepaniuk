@@ -72,8 +72,30 @@ export const Container = styled.div`
     .container_techs{
         display: flex;
         justify-content: center;
-        height: 100vh;
+        height: 100%;
         background-color: #212529;
     }
-    @media(min-width:920px)
+    @media(min-width:920px){
+        nav{
+            height: 72px;
+        }
+        .Container_Home{
+            width: 779.73px;
+        }
+        img{
+            width: 105.53px;
+            height: 14.63px;
+        }
+        section{
+
+            justify-content: space-between;
+            height: 118px;
+            flex-direction: row;
+            align-items: center;
+        }
+        .container_Add_techs{
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
 `

@@ -45,12 +45,15 @@ const FormRegister = ({ authenticated }) =>{
         }
         api.post('/users', user)
         .then((_)=>{
-            toast.success('Usuario Cadastrado')})
+            toast.success('Usuario Cadastrado')
             history.push('/')
-        .catch((_)=>toast.error('Usuario não cadastrado'))
+        })
+        .catch((_)=>{            
+            toast.error('Usuario não cadastrado')
+        })
 
     }
-    console.log(errors)
+
 
 
     if(authenticated === true){

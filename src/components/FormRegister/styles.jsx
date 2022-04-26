@@ -38,8 +38,6 @@ export const FormRegisterStyled = styled.form`
     p{
         font-size: 12px;
     }
-    img{
-        width: 122px;
-    }
+
 
 `

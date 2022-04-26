@@ -6,8 +6,6 @@ export const Container = styled.div`
     position: fixed;
     background-color: rgba(0, 0, 0, 0.7) ;
     height: 100%;
-
-
 `
 export const ContainerDiv = styled.div`
     position: fixed;
@@ -81,4 +79,41 @@ export const ContainerDiv = styled.div`
         justify-content: space-between;
         display: flex;
     }
+
+    @media only screen and (min-width: 920px){
+ 
+        right: 40%;
+        width: 369px;
+        height: 342px;
+    
+    input{
+        width:323px;
+        border-style: none;
+    }
+    .Container_details{
+        height: 50px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .Container_details .button_X{
+        font-size: 16px;
+    }
+    .button_save{
+        width: 204px;
+        height: 48px;
+    }
+    button + button{
+        width: 98px;
+        height: 48px;
+        margin-left: 15px;
+    }
+    select{
+        width: 329.93px;
+        height: 48px;
+    }
+    .container_buttons{
+        width: 330px;
+    }
+}
 `

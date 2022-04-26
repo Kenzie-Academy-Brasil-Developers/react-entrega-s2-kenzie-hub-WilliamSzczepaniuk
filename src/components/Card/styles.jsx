@@ -22,6 +22,14 @@ export const Container = styled.li`
         margin: 0px;
         margin-right: 10px;
     }
-
+    @media (min-width: 920px){
+        width: 742px;
+        :hover{
+            background-color: #868E96;
+        }
+        p{
+            margin-right: 10px;
+        }
+    }
     
 `
